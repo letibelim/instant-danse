@@ -1,0 +1,6 @@
+
+#contrôle des accès pour le dossier private
+
+# https://httpd.apache.org/docs/2.4/fr/howto/access.html
+
+Require all denied

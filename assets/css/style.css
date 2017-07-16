@@ -20,13 +20,16 @@ section time {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  min-width: 14.2857%;
+  min-width: 14.2857vw;
   max-width: 14.2857vw;
+  min-height: 14.2857vw;
+  max-height: 14.2857vw;
   position: relative;
   font-size: 1.8vw;
   line-height: 0;
   -webkit-transition: .35s opacity;
   transition: .35s opacity;
+  overflow:hidden;
 }
 
 section time.blank {
@@ -40,6 +43,7 @@ section time a {
   position: inherit;
   border-bottom: none;
   outline: none;
+  overflow: hidden;
 }
 
 section time span {
@@ -98,22 +102,23 @@ section time a img {
   }
 
   section time {
-    min-width: 20%;
+    min-width: 20vw;
     max-height: 20vw;
     max-width: 20vw;
     font-size: 3vw;
+
   }
 }
 @media all and (max-width: 750px) {
   section time {
-    min-width: 33%;
+    min-width: 33vw;
     max-height: 33vw;
     font-size: 5vw;
   }
 }
 @media all and (max-width: 450px) {
   section time {
-    min-width: 50%;
+    min-width: 50vw;
     max-height: 50vw;
     font-size: 5vw;
   }
